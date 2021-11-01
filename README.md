@@ -1,5 +1,5 @@
 # P300_Speller
-<p align="left"> Project developed during the Neuroengineering course at <a href="https://www.polimi.it/" rel="noreferrer"><Politecnico di Milano>. The project consisted in the development of a Deep Learning algorithm to identify the alphabetic letter thought by a subject through its electro-encephalographic activity (EEG).
+<p align="left"> Project developed during the Neuroengineering course at [Politecnico di Milano](https://www.polimi.it/). The project consisted in the development of a Deep Learning algorithm to identify the alphabetic letter thought by a subject through its electro-encephalographic activity (EEG).
     <br> 
 </p>
 
