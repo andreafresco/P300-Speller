@@ -6,8 +6,7 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Dataset](#data)
-- [Aim of the project](#aim)
-<!-- - [Model](#Model)-->
+- [Aim of the project](#aim)<!-- - [Model](#Model)-->
 - [Built Using](#built_using)
 - [Authors](#authors)
 
