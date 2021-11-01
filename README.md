@@ -1,29 +1,5 @@
 # P300_Speller
-The following code is realized by Fresco Andrea, Garza Roberto, Giove Morena, Losa Letizia and Molinari Giulia in the context of the "Neuroengineering" course, held by Cerveri Pietro and Pedrocchi Alessandra at Politecnico di Milano.
-
-It consists of a machine learning algorithm to predict the letter thought by a subject given the EEG signal acquired during a letter selection task.
-
-The aim of the code is to:
-1) analyze the P300 speller dataset; 
-2) extract EEG epochs from the EEG signals and filter them; 
-3) Develop a neural network able to classify EEG epochs in two classes (P300 ‐ non-P300); 
-4) detect the letters thought by the subjects during the test. 
-
-
-<h3 align="center">Project Title</h3>
-
-<div align="center">
-
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
-
----
-
-<p align="center"> Few lines describing your project.
+<p align="center"> Project developed during the Neuroengineering course at [Politecnico di Milano](https://www.polimi.it/). The project consisted in the development of a Deep Learning algorithm to identify the alphabetic letter thought by a subject through its electro-encephalographic activity (EEG).
     <br> 
 </p>
 
@@ -36,7 +12,6 @@ The aim of the code is to:
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 Individuals living with debilitating conditions, caused by brain or spinal cord injuries, amyotrophic lateral sclerosis or other diseases, are no longer able to voluntary control muscles movement. For these individuals, assistive technologies are required to allow, or ease, communication and mobility. One example of assistive technologies are Brain‐Computer Interfaces (BCI). BCI are based on monitoring the activity of the brain, typically through the electroencephalographic (EEG) signal. P300 BCI are based on the detection of the P300 event related potential (ERP). A P300 ERP is elicited when an auditory, visual, or somatosensory stimulus, which is significant for the subject, is
