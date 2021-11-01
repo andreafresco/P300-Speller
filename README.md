@@ -31,14 +31,14 @@ The folder Data contains the data that you need to use in the project. In this f
 - Subject_B_Train.mat: the same as explained for subject A, but for subject B
 - Subject_B_Test.mat: the same as explained for subject A, but for subject B
 
-## 🔧 Model building <a name = "model"></a>
-Explain the model
-
 ## 🚀 Aim of the project <a name = "aim"></a>
 1) analyze the P300 speller dataset; 
 2) extract EEG epochs from the EEG signals and filter them; 
 3) Develop a neural network able to classify EEG epochs in two classes (P300 ‐ non-P300); 
 4) detect the letters thought by the subjects during the test. 
+
+## 🔧 Model building <a name = "model"></a>
+Explain the model
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Python 3](https://www.python.org/) - Programming language
