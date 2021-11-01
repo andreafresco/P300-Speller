@@ -7,7 +7,7 @@
 - [About](#about)
 - [Dataset](#data)
 - [Aim of the project](#aim)
-- [Model](#Model)
+<!-- - [Model](#Model)-->
 - [Built Using](#built_using)
 - [Authors](#authors)
 
@@ -37,8 +37,8 @@ The folder Data contains the data that you need to use in the project. In this f
 3) Develop a neural network able to classify EEG epochs in two classes (P300 ‐ non-P300); 
 4) detect the letters thought by the subjects during the test. 
 
-## 🔧 Model building <a name = "model"></a>
-Explain the model
+<!--## 🔧 Model building <a name = "model"></a>
+Explain the model-->
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Python 3](https://www.python.org/) - Programming language
