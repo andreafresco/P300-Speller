@@ -9,12 +9,6 @@ The aim of the code is to:
 3) Develop a neural network able to classify EEG epochs in two classes (P300 ‐ non-P300); 
 4) detect the letters thought by the subjects during the test. 
 
-The system has been developed using Colab by Google (https://colab.research.google.com).
-
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
 
 <h3 align="center">Project Title</h3>
 
@@ -36,7 +30,7 @@ The system has been developed using Colab by Google (https://colab.research.goog
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
+- [Aim of the project](#aim)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
@@ -94,8 +88,11 @@ Give an example
 ## 🎈 Usage <a name="usage"></a>
 Add notes about how to use the system.
 
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+## 🚀 Aim of the project <a name = "aim"></a>
+1) analyze the P300 speller dataset; 
+2) extract EEG epochs from the EEG signals and filter them; 
+3) Develop a neural network able to classify EEG epochs in two classes (P300 ‐ non-P300); 
+4) detect the letters thought by the subjects during the test. 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [MongoDB](https://www.mongodb.com/) - Database
