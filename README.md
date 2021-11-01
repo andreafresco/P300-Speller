@@ -97,10 +97,12 @@ Add notes about how to use the system.
 4) detect the letters thought by the subjects during the test. 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Python 3](https://www.python.org/) - Programming language
+- [Google Colab](https://colab.research.google.com/) - Cloud service
+- [SciPy](https://www.scipy.org/) - Signal filtering
+- [Matplotlib](https://matplotlib.org/) - Visualization
+- [Tensorflow](https://www.tensorflow.org/) - Deep Learning model building
+- [Scikit-learn](https://scikit-learn.org/stable/index.html) - Cross Validation & Hyperparameters tuning
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@andreafresco](https://github.com/andreafresco) - Fresco Andrea
