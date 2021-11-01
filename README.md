@@ -39,7 +39,9 @@ The aim of the code is to:
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+Individuals living with debilitating conditions, caused by brain or spinal cord injuries, amyotrophic lateral sclerosis or other diseases, are no longer able to voluntary control muscles movement. For these individuals, assistive technologies are required to allow, or ease, communication and mobility. One example of assistive technologies are Brain‐Computer Interfaces (BCI). BCI are based on monitoring the activity of the brain, typically through the electroencephalographic (EEG) signal. P300 BCI are based on the detection of the P300 event related potential (ERP). A P300 ERP is elicited when an auditory, visual, or somatosensory stimulus, which is significant for the subject, is
+presented to him/her infrequently and interlarded with insignificant stimuli. The P300 response is visible in the EEG trace as a positive peak at about 300ms after the stimulus onset. The typical setup for a P300 BCI requires the presentation, to the subject, of a matrix of flashing letters and numbers. A P300 response will be elicited when the row, or the column, containing the letter the subject is focusing on flashes. By detecting and identifying the P300 responses, it is possible to determine
+which letter or number the subject was focusing on. Since detection of a P300 response is challenging, multiple repetitions of the same stimuli are presented to the subject, and the EEG signals are averaged.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
