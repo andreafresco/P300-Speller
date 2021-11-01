@@ -41,7 +41,7 @@ Explain the model-->
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Python 3](https://www.python.org/) - Programming language
-- [Google Colab](https://colab.research.google.com/) - Cloud service
+- [Google Colab](https://colab.research.google.com/) - Editor & Cloud service
 - [SciPy](https://www.scipy.org/) - Signal filtering
 - [Matplotlib](https://matplotlib.org/) - Visualization
 - [Tensorflow](https://www.tensorflow.org/) - Deep Learning model building
