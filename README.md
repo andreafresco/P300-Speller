@@ -21,21 +21,15 @@ which letter or number the subject was focusing on. Since detection of a P300 re
 The folder Data contains the data that you need to use in the project. In this folder there are several files:
 - channels.csv : this .csv file contains the list of the 64 EEG channels used during the recording. Channel #1 in the .csv file (that is Fc5) is the same as Channel #1 in the .mat files
 - Subject_A_Train.mat: this file contains several variables for the training sessions of subject A. The variables are:
-- - Flashing: 1 when row/column was intensified, 0 otherwise
-- - StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0
-otherwise
-○ StimulusType: 1 when row/column being intensified contained target char, 0
-otherwise
-○ TargetChar: chars spelled by the subject during the training session
-○ Signal: EEG recording matrix for the training session of subject A. It is 3D matrix
-with the following dimensions: 85 (trials) x SAMPLES x 64 (channels)
-● Subject_A_Train_Reduced.mat: this file contains a reduced set (first 5 trials) of the
-Subjet_A_Train.mat file, that you can use with the provided Colab notebook.
-● Subject_A_Test.mat: this file contains all the data for the test sessions of subject A. You
-don’t have any information about the stimulus type because the goal in the test set is to
-predict the spelled letters
-● Subject_B_Train.mat: the same as explained for subject A, but for subject B
-● Subject_B_Test.mat: the same as explained for subject A, but for subject B
+  - Flashing: 1 when row/column was intensified, 0 otherwise
+  - StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0 otherwise
+  - StimulusType: 1 when row/column being intensified contained target char, 0 otherwise
+  - TargetChar: chars spelled by the subject during the training session
+  - Signal: EEG recording matrix for the training session of subject A. It is 3D matrix with the following dimensions: 85 (trials) x SAMPLES x 64 (channels)
+- Subject_A_Train_Reduced.mat: this file contains a reduced set (first 5 trials) of the Subjet_A_Train.mat file, that you can use with the provided Colab notebook.
+- Subject_A_Test.mat: this file contains all the data for the test sessions of subject A. You don’t have any information about the stimulus type because the goal in the test set is to predict the spelled letters
+- Subject_B_Train.mat: the same as explained for subject A, but for subject B
+- Subject_B_Test.mat: the same as explained for subject A, but for subject B
 
 ## 🔧 Model building <a name = "model"></a>
 Explain the model
