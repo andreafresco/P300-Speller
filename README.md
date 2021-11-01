@@ -7,10 +7,8 @@
 - [About](#about)
 - [Dataset](#data)
 - [Aim of the project](#aim)
-- [Usage](#usage)
+- [Model](#Model)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 
 ## 🧐 About <a name = "about"></a>
@@ -23,8 +21,8 @@ which letter or number the subject was focusing on. Since detection of a P300 re
 The folder Data contains the data that you need to use in the project. In this folder there are several files:
 - channels.csv : this .csv file contains the list of the 64 EEG channels used during the recording. Channel #1 in the .csv file (that is Fc5) is the same as Channel #1 in the .mat files
 - Subject_A_Train.mat: this file contains several variables for the training sessions of subject A. The variables are:
--- Flashing: 1 when row/column was intensified, 0 otherwise
--- StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0
+- - Flashing: 1 when row/column was intensified, 0 otherwise
+- - StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0
 otherwise
 ○ StimulusType: 1 when row/column being intensified contained target char, 0
 otherwise
@@ -41,10 +39,6 @@ predict the spelled letters
 
 ## 🔧 Model building <a name = "model"></a>
 Explain the model
-
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
 
 ## 🚀 Aim of the project <a name = "aim"></a>
 1) analyze the P300 speller dataset; 
