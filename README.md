@@ -19,17 +19,12 @@ presented to him/her infrequently and interlarded with insignificant stimuli. Th
 which letter or number the subject was focusing on. Since detection of a P300 response is challenging, multiple repetitions of the same stimuli are presented to the subject, and the EEG signals are averaged.
 
 ## 💾 Dataset <a name = "data"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-The folder Data contains the data that you need to use in the project. In this folder there are
-several files:
-● channels.csv : this .csv file contains the list of the 64 EEG channels used during the
-recording. Channel #1 in the .csv file (that is Fc5) is the same as Channel #1 in the .mat
-files
-● Subject_A_Train.mat: this file contains several variables for the training sessions of
-subject A. The variables are:
-○ Flashing: 1 when row/column was intensified, 0 otherwise
-○ StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0
+The folder Data contains the data that you need to use in the project. In this folder there are several files:
+- channels.csv : this .csv file contains the list of the 64 EEG channels used during the recording. Channel #1 in the .csv file (that is Fc5) is the same as Channel #1 in the .mat files
+- Subject_A_Train.mat: this file contains several variables for the training sessions of subject A. The variables are:
+-- Flashing: 1 when row/column was intensified, 0 otherwise
+-- StimulusCode: 1..6 for intensified columns, 7...12 for intensified rows, 0
 otherwise
 ○ StimulusType: 1 when row/column being intensified contained target char, 0
 otherwise
